@@ -1,0 +1,15 @@
+body {
+  font-family: var(--main-font-family);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+
+  color: var(--main-color);
+}
+img {
+  display: block;
+}
+input {
+  color: var(--main-light-color);
+}

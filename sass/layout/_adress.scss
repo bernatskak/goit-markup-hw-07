@@ -1,0 +1,24 @@
+.adress {
+  margin-top: 20px;
+
+  font-style: normal;
+}
+.adress-list {
+  display: block;
+  flex-direction: column;
+}
+.adress-item {
+  margin-bottom: 9px;
+}
+.adress-item:last-child {
+  margin-bottom: 0px;
+}
+.street {
+  color: var(--main-light-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}

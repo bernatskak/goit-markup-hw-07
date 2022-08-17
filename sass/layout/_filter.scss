@@ -1,0 +1,57 @@
+.filter {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-item {
+  display: block;
+  margin-right: 8px;
+
+  color: var(--main-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.filter-item:last-child {
+  margin-right: 0px;
+}
+.button-filter-all {
+  padding: 6px 22px;
+  text-align: center;
+  border: none;
+  color: var(--main-light-color);
+  background-color: var(--current-color);
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: inherit;
+  transition: box-shadow 250ms var(--transition-timing-function);
+}
+.button-filter-all:hover,
+.button-filter-all:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-filter {
+  padding: 6px 22px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 4px;
+  color: var(--main-color);
+  background-color: var(--badge-bg-color);
+  transition: color 250ms var(--transition-timing-function),
+    background-color 250ms var(--transition-timing-function),
+    box-shadow 250ms var(--transition-timing-function);
+}
+.button-filter:hover,
+.button-filter:focus {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 4px;
+  color: var(--main-light-color);
+  background-color: var(--current-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}

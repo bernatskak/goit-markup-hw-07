@@ -1,0 +1,69 @@
+.contact {
+  margin-left: auto;
+  .contact-type {
+    display: flex;
+    margin-right: 50px;
+    color: var(--secondary-color);
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms var(--transition-timing-function);
+  }
+}
+.contact .contact-type:last-child {
+  margin-right: 0px;
+}
+.contact-mail,
+.contact-tel {
+  display: flex;
+  align-items: center;
+  padding: 22px 6px;
+  color: var(--secondary-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms var(--transition-timing-function);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--current-color);
+}
+.contact-mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+}
+.contact-mail-icon:hover,
+.contact-mail-icon:focus {
+  color: var(--current-color);
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--current-color);
+}
+.contact-tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+}
+.contact-tel-icon:hover,
+.contact-tel-icon:focus {
+  color: var(--current-color);
+}
+
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}

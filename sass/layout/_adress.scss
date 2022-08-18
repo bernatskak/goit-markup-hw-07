@@ -9,10 +9,11 @@
 }
 .adress-item {
   margin-bottom: 9px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
-.adress-item:last-child {
-  margin-bottom: 0px;
-}
+
 .street {
   color: var(--main-light-color);
 

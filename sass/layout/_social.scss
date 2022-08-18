@@ -14,6 +14,11 @@
   color: #afb1b8;
   transition: color 250ms var(--transition-timing-function),
     background-color 250ms var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--current-color);
+    color: var(--main-light-color);
+  }
 }
 .team-soc-item {
   width: 44px;
@@ -21,11 +26,6 @@
 }
 .team-soc-icon {
   fill: currentColor;
-}
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--current-color);
-  color: var(--main-light-color);
 }
 
 .container-social {
@@ -62,8 +62,9 @@
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--transition-timing-function);
-}
-.soc-link:hover,
-.soc-link:focus {
+&:hover,
+&:focus {
   background-color: var(--current-color);
 }
+}
+

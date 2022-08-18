@@ -22,13 +22,12 @@
   border-radius: 4px;
   transition: border-color 250ms var(--transition-timing-function),
     color 250ms var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    border-color: var(--current-color);
+    color: var(--current-color);
+  }
 }
 .clients-icon {
   fill: currentColor;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--current-color);
-  color: var(--current-color);
 }

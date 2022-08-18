@@ -14,8 +14,8 @@
   cursor: pointer;
   font-family: inherit;
   transition: background-color 250ms var(--transition-timing-function);
-}
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

@@ -1,20 +1,20 @@
-.section-work {
+.work {
   padding-top: 0px;
   padding-bottom: 94px;
 }
-.work-item {
+.work__list {
   display: flex;
   column-gap: 30px;
   text-decoration: none;
 }
-.work-list {
+.work__item {
   display: block;
 }
-.title-label {
+.work__title-label {
   position: relative;
   bottom: 0;
 }
-.text-label {
+.work__text {
   position: absolute;
   bottom: 0;
   padding-top: 27px;

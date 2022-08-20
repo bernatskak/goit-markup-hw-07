@@ -21,13 +21,12 @@
   width: 1200px;
 }
 
-.main-title {
+.main__title {
   max-width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--main-light-color);
 
   font-family: var(--main-font-family);
   font-weight: 900;
@@ -41,4 +40,10 @@
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.title--color-dark {
+  color: var(--main-color);
+}
+.title--color-light {
+  color: var(--main-light-color);
 }

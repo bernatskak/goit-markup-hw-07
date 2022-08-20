@@ -713,7 +713,6 @@ input {
 .team__tittle {
   margin-top: 0;
   margin-bottom: 50px;
-  color: var(--main-color);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -793,14 +792,12 @@ input {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-light-color);
   background: rgba(47, 48, 58, 0.8);
 }
 
 .about-work {
   margin-top: 0px;
   margin-bottom: 50px;
-  color: var(--main-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -822,7 +819,6 @@ input {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
 }
 .feature .text {
   margin-top: 10px;
@@ -865,13 +861,12 @@ input {
   width: 1200px;
 }
 
-.main-title {
+.main__title {
   max-width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--main-light-color);
   font-family: var(--main-font-family);
   font-weight: 900;
   font-size: 44px;
@@ -884,6 +879,14 @@ input {
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.title--color-dark {
+  color: var(--main-color);
+}
+
+.title--color-light {
+  color: var(--main-light-color);
 }
 
 .contact {
@@ -971,11 +974,10 @@ input {
   margin-right: 0px;
 }
 
-.navigation > .logo-header {
+.navigation > .logo__header {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
-  color: var(--main-dark-color);
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;

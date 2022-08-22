@@ -8,14 +8,14 @@
   text-align: center;
   border: none;
 
-  background-color: var(--current-color);
-  color: var(--main-light-color);
+  background-color: $CurrentColor;
+  color: $mainLightColor;
 
   cursor: pointer;
   font-family: inherit;
-  transition: background-color 250ms var(--transition-timing-function);
+  transition: background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: $SecondaryCurrentColor;
   }
 }

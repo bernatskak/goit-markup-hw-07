@@ -12,12 +12,11 @@
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  transition: color 250ms var(--transition-timing-function),
-    background-color 250ms var(--transition-timing-function);
+  transition: color$TransitionTimingFunction, background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
-    background-color: var(--current-color);
-    color: var(--main-light-color);
+    background-color: $CurrentColor;
+    color: $mainLightColor;
   }
 }
 .team__social-network {
@@ -42,7 +41,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: $mainLightColor;
 }
 .social-list {
   display: flex;
@@ -60,10 +59,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms var(--transition-timing-function);
+  background: $TextColorSecondary;
+  transition: background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
-    background-color: var(--current-color);
+    background-color: $CurrentColor;
   }
 }

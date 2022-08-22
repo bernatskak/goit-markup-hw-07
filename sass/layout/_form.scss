@@ -10,7 +10,7 @@
   font-size: 12px;
   line-height: 1.16px;
 
-  color: var(--secondary-color);
+  color: $SecondaryColor;
 }
 .form-field:not(:last-child) {
   margin-bottom: 0;
@@ -31,13 +31,13 @@
   font-size: 16px;
   line-height: 1;
 
-  color: var(--secondary-color);
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  color: $SecondaryColor;
+  border: 1px solid $inputBorder;
   border-radius: 4px;
   outline: transparent;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border $TransitionTimingFunction;
   &:focus {
-    border-color: var(--current-color);
+    border-color: $CurrentColor;
   }
 }
 
@@ -45,11 +45,11 @@
   position: absolute;
   left: 12px;
   top: 50%;
-  fill: var(--main-color);
+  fill: $MainColor;
   transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $TransitionTimingFunction;
   .form-input:focus + & {
-    fill: var(--current-color);
+    fill: $CurrentColor;
   }
 }
 
@@ -63,21 +63,21 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  color: rgba(117, 117, 117, 0.5);
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  color: $FormText;
+  border: 1px solid $inputBorder;
   border-radius: 4px;
   outline: transparent;
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border $TransitionTimingFunction;
   &:focus {
-    border-color: var(--current-color);
+    border-color: $CurrentColor;
     &:placeholder {
       font-weight: 400;
       font-size: 12px;
       line-height: 1.16;
       letter-spacing: 0.01em;
 
-      color: rgba(117, 117, 117, 0.5);
+      color: $FormText;
     }
   }
 }
@@ -93,23 +93,22 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secondary-color);
+  color: $SecondaryColor;
 }
 .icon-checkbox {
   display: inline-block;
   width: 16px;
   height: 15px;
   margin-right: 10px;
-  border: 2px solid var(--main-color);
+  border: 2px solid $MainColor;
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color $TransitionTimingFunction, border-color $TransitionTimingFunction;
   .modal-check:focus + & {
     border-color: 2px solid var(--current-color);
   }
   .modal-check:checked + & {
-    background-color: var(--current-color);
-    border: var(--current-color);
+    background-color: $CurrentColor;
+    border: $CurrentColor;
   }
 }
 .icon-check {
@@ -122,8 +121,7 @@
   margin-right: 8px;
   border-radius: 2px;
   transform: translateY(-50%);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color $TransitionTimingFunction, border-color $TransitionTimingFunction;
 
   .modal-check:checked + .icon-checkbox & {
     opacity: 1;
@@ -131,7 +129,7 @@
 }
 
 .check-link {
-  color: var(--current-color);
+  color: $CurrentColor;
 }
 
 .button-check {
@@ -149,12 +147,12 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: var(--main-light-color);
-  background-color: var(--current-color);
+  color: $mainLightColor;
+  background-color: $CurrentColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: $SecondaryCurrentColor;
   }
 }

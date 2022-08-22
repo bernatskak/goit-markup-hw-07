@@ -1,6 +1,6 @@
 .header {
-  border-bottom: 1px solid #ececec;
-  background-color: var(--main-light-color);
+  border-bottom: 1px solid $BorderHeader;
+  background-color: $mainLightColor;
   .main-nav {
     display: flex;
     align-items: center;

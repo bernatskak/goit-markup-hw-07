@@ -28,7 +28,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  font-family: var(--main-font-family);
+  font-family: $FontFamily;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -41,9 +41,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.title--color-dark {
-  color: var(--main-color);
-}
+
 .title--color-light {
-  color: var(--main-light-color);
+  color: $mainLightColor;
 }

@@ -1,7 +1,7 @@
 .current {
-  color: var(--current-color);
+  color: $CurrentColor;
 
-  font-family: var(--secondary-font-family);
+  font-family: $FontFamily;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

@@ -1,13 +1,13 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--border-color);
+  background-color: $BorderColor;
 }
 
 .site-logo-footer {
-  color: var(--main-dark-color);
+  color: $mainDarkColor;
 
-  font-family: var(--secondary-font-family);
+  font-family: $FontFamily;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -16,9 +16,9 @@
   text-decoration: none;
 }
 .secondary-current {
-  color: var(--main-light-color);
+  color: $mainLightColor;
 
-  font-family: 'Raleway';
+  font-family: $FontFamily;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

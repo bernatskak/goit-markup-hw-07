@@ -14,7 +14,7 @@
   .text {
     margin-top: 10px;
     margin-bottom: 0px;
-    color: var(--secondary-color);
+    color: $SecondaryColor;
 
     font-weight: 400;
     font-size: 14px;
@@ -29,5 +29,5 @@
   align-items: center;
   width: 270px;
   height: 120px;
-  background-color: var(--badge-bg-color);
+  background-color: $BadgeBgColor;
 }

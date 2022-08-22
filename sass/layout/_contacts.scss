@@ -4,13 +4,13 @@
 .contact__list {
   display: flex;
   margin-right: 50px;
-  color: var(--secondary-color);
+  color: $SecondaryColor;
   align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 250ms var(--transition-timing-function);
+  transition: color $TransitionTimingFunction;
   .contact &:last-child {
     margin-right: 0px;
   }
@@ -21,16 +21,16 @@
   display: flex;
   align-items: center;
   padding: 22px 6px;
-  color: var(--secondary-color);
+  color: $SecondaryColor;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 250ms var(--transition-timing-function);
+  transition: color $TransitionTimingFunction;
   &:hover,
   &:focus {
-    color: var(--current-color);
+    color: $CurrentColor;
   }
 }
 
@@ -41,8 +41,6 @@
   background-size: contain;
   &:hover,
   &:focus {
-    color: var(--current-color);
+    color: $CurrentColor;
   }
 }
-
-

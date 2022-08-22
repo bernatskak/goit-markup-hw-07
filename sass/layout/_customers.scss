@@ -6,7 +6,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--main-color);
+  color: $MainColor;
 }
 .customers-list {
   gap: 30px;
@@ -17,15 +17,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #afb1b8;
-  color: #afb1b8;
+  border: 1px solid $iconColor;
+  color: $iconColor;
   border-radius: 4px;
-  transition: border-color 250ms var(--transition-timing-function),
-    color 250ms var(--transition-timing-function);
+  transition: border-color $TransitionTimingFunction, color 250ms$TransitionTimingFunction;
   &:hover,
   &:focus {
-    border-color: var(--current-color);
-    color: var(--current-color);
+    border-color: $CurrentColor;
+    color: $CurrentColor;
   }
 }
 .clients-icon {

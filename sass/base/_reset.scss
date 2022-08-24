@@ -5,11 +5,11 @@ body {
   font-weight: 700;
   line-height: 1.14;
 
-  color: #212121;
+  color: $MainColor;
 }
 img {
   display: block;
 }
 input {
-  color: #fff;
+  color: $mainLightColor;
 }

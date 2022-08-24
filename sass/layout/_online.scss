@@ -25,7 +25,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   margin-right: 12px;
-  border: 1px solid $TextColorSecondary;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
@@ -52,18 +52,18 @@
   min-width: 200px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--current-color);
-  color: var(--main-light-color);
+  background-color: $CurrentColor;
+  color: $mainLightColor;
   cursor: pointer;
   font-family: inherit;
-  transition: background-color 250ms var(--transition-timing-function);
+  transition: background-color $TransitionTimingFunction;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: $SecondaryCurrentColor;
   }
 }
 

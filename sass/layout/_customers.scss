@@ -20,7 +20,7 @@
   border: 1px solid $iconColor;
   color: $iconColor;
   border-radius: 4px;
-  transition: border-color $TransitionTimingFunction, color 250ms$TransitionTimingFunction;
+  transition: border-color $TransitionTimingFunction, color $TransitionTimingFunction;
   &:hover,
   &:focus {
     border-color: $CurrentColor;

@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  transition: color$TransitionTimingFunction, background-color $TransitionTimingFunction;
+  transition: color $TransitionTimingFunction, background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
     background-color: $CurrentColor;
@@ -59,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $TextColorSecondary;
+  background: rgba(255, 255, 255, 0.1);
   transition: background-color $TransitionTimingFunction;
   &:hover,
   &:focus {
